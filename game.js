@@ -13,7 +13,7 @@ function handleClick(){
         sBox.style = 'background-color: red'
     }
     else if(val === ans){
-    sBox.textContent = "Yahhh!!! You Won the Game. Your Guess is Correct";
+    sBox.textContent = "Yayy!!! You Won the Game. Your Guess is Correct";
 
 }
     else{
@@ -24,7 +24,7 @@ function handleClick(){
     scoreBoard.innerText = score;
 
     if(score === 0){
-        sBox.innerText = "Game Over"; 
+        sBox.innerText = "Oops!!You Couldn't make it. Try Again!"; 
     }
     if(score === 0 || val === ans){
         rev.innerText = ans;
