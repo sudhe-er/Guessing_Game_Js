@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(2,0,36);
+background: linear-gradient(345deg, rgba(2,0,36,1) 7%, rgba(189,33,178,0.31976540616246496) 31%, rgba(221,29,39,0.8603816526610644) 58%, rgba(0,212,255,1) 100%);
+/* background: rgb(2,0,36); */
+/* background: linear-gradient(345deg, rgba(2,0,36,1) 7%, rgba(189,33,178,0.31976540616246496) 31%, rgba(162,40,6,0.6895133053221288) 58%, rgba(0,212,255,1) 100%); */
+}
+header{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;/*default size = 16px*/
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100px;
+    width: 100px;
+    background-color: yellow;
+    font-weight: 600;
+    top: 9px;
+    left: 85vw;
+    position: relative; /*absolute-removed from the normal flow -->*/
+}
+.revealer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    left:48vw;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    font-weight: 600;
+    background-color: rgb(43, 243, 43);
+    position: relative;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 25px;
+    height: 55vh;
+}
+input{
+    padding: 10px;
+    background-color: rgb(85, 199, 245);
+    width: 40px;
+    outline: none;
+    border: 1px solid black;
+}
+button{
+    padding:10px;
+    background-color:rgb(139, 0, 133);
+    border-radius:3px;
+    color:white
+}
+.suggestion-box{
+    background-color: rgb(174, 235, 9);
+    color: rgb(10, 1, 1);
+   padding: 10px;
+   border-radius: 3px;
+}
+.btn{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    width: 120px;
+}
+.inp{
+    text-align: center;
+    font-weight: 600;
+}
+p{
+    font-family:cursive;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
